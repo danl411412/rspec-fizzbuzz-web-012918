@@ -1,4 +1,4 @@
-def fizzbuzz
+def fizzbuzz(num)
   fizz = num % 3 == 0
   buzz = num % 5 == 0
   fizzbuzz = fizz && buzz
